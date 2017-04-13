@@ -1,7 +1,7 @@
 # BlogWithCRUDFunctionality
 Blog with CRUD Functionality .It uses Node.js and Express 4.
 
-Downlaod this file.<br>
+Download this file.<br>
 Install all the modules required as per package.json.<br>
 Run the  node app.js<br>
 
@@ -11,7 +11,7 @@ set the parameters for process.env.DATABASEURL<br>
 
 create mongo database in any website like mlab.<br>Note down the user,db link and password of db.<br>
 From terminal :-<br>
-heroku config:set DATABASEURL='mongodb://<username>:<password>@ds12345.mlab.com:59670/blog'<br>
+heroku config:set DATABASEURL='mongodb://\\<username>:\\<password>@ds12345.mlab.com:59670/blog'<br>
 
 
 The blog will be launched<br>
