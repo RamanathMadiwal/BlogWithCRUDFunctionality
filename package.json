@@ -1,0 +1,20 @@
+{
+  "name": "blo",
+  "version": "1.0.0",
+  "description": "<strong>Language: HTML/CSS+SemanticUI/JS+Node+Express/MongoDB</strong>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ramanath madiwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-sanitizer": "^1.0.2",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.4"
+  }
+}

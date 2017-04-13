@@ -1,0 +1,81 @@
+
+/* GLOBAL */
+
+html {
+  height: inherit;
+}
+
+.container.main {
+  margin-top: 4.7em;
+  margin-bottom: 1.5em;
+}
+
+/* HEADER */
+
+.menu .header i.icon {
+  font-size: 1.8em;
+}
+
+/* INDEX */
+
+i.icon.chevron {
+  font-size: 0.8em;
+}
+
+.content .header a {
+  color: black;
+}
+
+.content .header a:hover {
+  text-decoration: underline;
+}
+
+/* SHOW */
+
+#delete {
+  display: inline;
+}
+body{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  min-height: 100%;
+  min-width:100%;
+  justify-content: center;
+  background-image: url("../images/blogbackground.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headername{
+  color: #00B7FF;
+
+}
+
+.editblock{
+  background: url("../images/editblock.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.individualBlock{
+  min-height: 100%;
+  min-width:100%;
+
+  background: url("../images/individualblock.jpg");
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}

@@ -1,0 +1,39 @@
+<? include ./partials/header ?>
+
+<div class="ui main text container segment raised">
+    <div class="ui huge header">
+        New Post
+    </div>
+    <div class="">
+
+    <form action="/blogs" method="POST" class="ui form ">
+
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="blog[title]" placeholder="Title" required>
+        </div>
+        <div class="field">
+            <label>Image URL</label>
+            <input type="text" name="blog[imageUrl]" placeholder="Image URL" required>
+            <a class="ui pointing red basic label">Or Visit <a href="http://www.desibucket.com">Image URL website</a></a>
+        </div>
+        <div class="field">
+            <label>Post Content</label>
+            <textarea name="blog[body]" placeholder="Post Content" required></textarea>
+        </div>
+
+        <button class="ui black icon button">
+            Submit
+            <i class="external share icon right"></i>
+        </button>
+
+        <a href="/blogs" class="ui red basic icon button">
+            Cancel
+            <i class="remove icon right"></i>
+        </a>
+
+    </form>
+    </div>
+</div>
+
+<? include ./partials/footer ?>
